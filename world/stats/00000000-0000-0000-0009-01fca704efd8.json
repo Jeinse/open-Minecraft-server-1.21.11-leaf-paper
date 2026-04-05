@@ -1,0 +1,52 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:lever": 1,
+      "minecraft:redstone": 1,
+      "minecraft:oak_planks": 1,
+      "minecraft:copper_axe": 1,
+      "minecraft:cooked_chicken": 2,
+      "minecraft:cobblestone": 16
+    },
+    "minecraft:picked_up": {
+      "minecraft:oak_planks": 1,
+      "minecraft:redstone": 1,
+      "minecraft:cooked_chicken": 1
+    },
+    "minecraft:mined": {
+      "minecraft:redstone_wire": 1,
+      "minecraft:oak_planks": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 8,
+      "minecraft:lever": 1,
+      "minecraft:oak_planks": 8,
+      "minecraft:copper_pickaxe": 2,
+      "minecraft:copper_axe": 1,
+      "minecraft:copper_shovel": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 8,
+      "minecraft:walk_one_cm": 37372,
+      "minecraft:leave_game": 2,
+      "minecraft:damage_taken": 60,
+      "minecraft:damage_dealt": 30,
+      "minecraft:play_time": 16824,
+      "minecraft:jump": 126,
+      "minecraft:time_since_death": 16824,
+      "minecraft:sprint_one_cm": 40673,
+      "minecraft:open_chest": 22,
+      "minecraft:sleep_in_bed": 1,
+      "minecraft:inspect_dispenser": 1,
+      "minecraft:fall_one_cm": 3244,
+      "minecraft:total_world_time": 16824,
+      "minecraft:fly_one_cm": 12337,
+      "minecraft:walk_on_water_one_cm": 330,
+      "minecraft:crouch_one_cm": 699,
+      "minecraft:sneak_time": 352,
+      "minecraft:animals_bred": 2
+    }
+  },
+  "DataVersion": 4671
+}
