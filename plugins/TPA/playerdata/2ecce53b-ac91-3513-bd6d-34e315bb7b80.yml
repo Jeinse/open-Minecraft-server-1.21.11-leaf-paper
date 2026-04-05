@@ -1,0 +1,40 @@
+player_name: 0m07
+language: zh_CN
+setlang: false
+last_location:
+  world: world
+  x: -74.16894109411807
+  y: 74.0
+  z: -651.7333319219587
+  pitch: 16.200037
+  yaw: -14.84986
+logout_location:
+  world: world
+  x: -163.45834456756873
+  y: 88.0625
+  z: -511.58639203270087
+  pitch: -1.6501681
+  yaw: 91.350006
+default_home: default
+homes:
+  default:
+    world: world
+    x: -158.73418545602956
+    y: 88.0
+    z: -512.5174748718514
+    pitch: 1.7999963
+    yaw: 86.55071
+  marsh:
+    world: world
+    x: -2540.974919872718
+    y: 82.0
+    z: -941.7346958160728
+    pitch: 36.44998
+    yaw: 93.43219
+  xuedi:
+    world: world
+    x: 13119.410509708965
+    y: 68.0
+    z: -3079.6850162630276
+    pitch: 21.74999
+    yaw: 6.061676

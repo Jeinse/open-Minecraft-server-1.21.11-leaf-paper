@@ -1,0 +1,42 @@
+permissions:
+  tpa: luckytpa.tpa # This goes for /tpahere too
+  tpaccept: luckytpa.tpaccept
+  tpdeny: luckytpa.tpdeny
+  tp: luckytpa.tp
+  tphere: luckytpa.tphere
+  tppos: luckytpa.tppos
+  bypass-delay: luckytpa.bypassdelay
+
+settings:
+  time-delay: false
+  time-to-teleport: 5 # This is in seconds
+  cooldown: 30 # This is in seconds
+  cooldown-msg: "&f你发送请求过于频繁！"
+
+messages:
+  sent-tpa: "&f你请求传送到 &b%player%"
+  received-tpa: "&f你收到了来自 &b%player% 的传送请求"
+  sent-tpahere: "&f你请求将 &b%player% 传送到你身边"
+  received-tpahere: "&f你收到了来自 &b%player% 的传送请求，要求你传送到他们那里"
+  accept: "&a&l[接受]"
+  deny: "&c&l[拒绝]"
+  no-permission: "&c你没有权限执行此命令！"
+  console-cmd: "&c只有玩家可以执行此命令！"
+  player-offline: "&f玩家不在线或不存在"
+  no-requests: "&f你没有任何请求"
+  you-accepted: "&f你已 &a接受 &f该传送请求"
+  player-accepted: "&b%player% &f已 &a接受 &f你的请求"
+  player-accepted-timer: "&b%player% &f已 &a接受你的请求，将在 &c%time% &f秒后传送"
+  you-denied: "&f你已 &c拒绝 &f该传送请求"
+  player-denied: "&b%player% &f已 &c拒绝 &f你的请求"
+  tp-msg: "&f你已传送到 &b%player%"
+  tphere-msg: "&f你已将 &b%player% 传送到你身边"
+  cant-tp-to-self: "&c傻了吧！你不能传送到自己"
+  tppos: "&f你已传送到 &6%x% %y% %z%&f。"
+
+usage-messages:
+  tpa: "&6/tpa [玩家名]"
+  tpahere: "&6/tpahere [玩家名]"
+  tp: "&6/tp [玩家名]"
+  tphere: "&6/tphere [玩家名]"
+  tppos: "&6/tppos [x] [y] [z]"

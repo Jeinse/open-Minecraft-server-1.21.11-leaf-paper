@@ -1,0 +1,5 @@
+*.log
+*.zip
+*.log.gz
+*.db
+*.txt

@@ -1,0 +1,26 @@
+player_name: MoLi_o
+language: zh_CN
+setlang: false
+logout_location:
+  world: world
+  x: -21.16304065382109
+  y: 72.0
+  z: -535.6413047903324
+  pitch: 29.181225
+  yaw: -120.84424
+last_location:
+  world: world
+  x: -293.8944490328007
+  y: 120.0
+  z: 5.324323690588018
+  pitch: 37.804504
+  yaw: -39.98927
+default_home: default
+homes:
+  default:
+    world: world
+    x: -15.200061016021166
+    y: 72.0
+    z: -534.989821896993
+    pitch: 32.535915
+    yaw: -3.1202698

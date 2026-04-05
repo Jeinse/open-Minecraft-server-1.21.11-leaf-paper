@@ -1,0 +1,33 @@
+player_name: Purekeks
+language: zh_CN
+setlang: false
+logout_location:
+  world: world
+  x: -163.07498998807907
+  y: 88.0
+  z: -509.19553
+  pitch: 12.45311
+  yaw: 34.9572
+last_location:
+  world: world_nether
+  x: -96.899704
+  y: 17.0
+  z: -175.76875
+  pitch: 12.988129
+  yaw: 81.77203
+default_home: default
+homes:
+  default:
+    world: world
+    x: -162.93263
+    y: 88.0
+    z: -509.71988
+    pitch: 23.238968
+    yaw: 92.77841
+  jyxb:
+    world: world
+    x: -1640.300010011921
+    y: 78.0
+    z: -1466.515
+    pitch: 40.268616
+    yaw: 61.071533

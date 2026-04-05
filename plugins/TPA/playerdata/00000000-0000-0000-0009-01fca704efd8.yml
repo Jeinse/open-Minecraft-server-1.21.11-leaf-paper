@@ -1,0 +1,17 @@
+player_name: Moli5566
+language: zh_CN
+setlang: false
+last_location:
+  world: world
+  x: -187.69998998807907
+  y: 97.0
+  z: -512.6999899880791
+  pitch: 89.899994
+  yaw: -63.873505
+logout_location:
+  world: world
+  x: -248.5
+  y: 106.5
+  z: -547.5
+  pitch: 0.0
+  yaw: -180.0

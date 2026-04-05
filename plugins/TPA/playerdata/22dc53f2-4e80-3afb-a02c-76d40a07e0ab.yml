@@ -1,0 +1,40 @@
+player_name: Trood0n
+language: zh_CN
+setlang: false
+logout_location:
+  world: world
+  x: -260.2948477839083
+  y: 106.0
+  z: -549.0127953876087
+  pitch: 10.050109
+  yaw: -89.67706
+last_location:
+  world: world
+  x: -201.96697989936868
+  y: 65.0
+  z: -556.2653858400993
+  pitch: -4.350005
+  yaw: -128.52965
+default_home: default
+homes:
+  default:
+    world: world
+    x: -250.91035768901878
+    y: 101.0
+    z: -531.3677346626597
+    pitch: -1.0499197
+    yaw: -176.97908
+  xht:
+    world: world_the_end
+    x: 266.418947948328
+    y: 2.0625
+    z: -6.580774666491612
+    pitch: 31.050116
+    yaw: -88.18527
+  lbs:
+    world: world
+    x: -2943.0109475528084
+    y: 115.0
+    z: -2584.557559552611
+    pitch: 23.250206
+    yaw: -159.90808

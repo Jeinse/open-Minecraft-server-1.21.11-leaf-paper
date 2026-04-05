@@ -1,0 +1,62 @@
+# Check for updates on startup, this uses the modrinth api to get the newest version for your server.
+check-for-updates: false
+messages:
+  prefix: §8[§6JustTPA§8] §7
+  reloaded: 配置已重载。
+  usages:
+    tpa: '用法: /tpa <玩家>'
+    tpahere: '用法: /tpahere <玩家>'
+    tpaccept: '用法: /tpaccept 接受上一个传送请求，或 /tpaccept <玩家> 接受指定玩家的传送请求'
+  errors:
+    player-required: 你必须是一名玩家才能使用此命令。
+    player-not-found: 玩家未找到。
+    player-self-request: 你不能向自己发送传送请求。
+    request-pending: 你已有一个待处理的请求。
+    request-not-found: 你没有待处理的请求。
+    return-not-found: 没有可返回的位置，或已超时。
+    request-not-found-by: 你没有来自 %playername% 的待处理请求。
+    cooldown: 你需要等待 %seconds% 秒才能再次发送传送请求。
+  request:
+    sent: 传送请求已发送给 %playername%，他们有 %seconds% 秒的时间接受。
+    return: 你将被传送回之前的位置。
+    received: 你收到来自 %playername% 的传送请求，该请求将在 %seconds% 秒后过期。
+    accept: 输入 /tpaccept 接受请求。
+    deny: 输入 /tpadeny 拒绝请求。
+    denied-by: 传送被 %playername% 拒绝。
+    denied: 你已拒绝来自 %playername% 的传送请求。
+    warning-tpa-here: 警告：如果你接受此请求，你将被传送到 %playername% 的位置。
+    canceled: 传送已取消。
+    canceled-by: 传送被 %playername% 取消。
+    accepted: 你接受了来自 %playername% 的传送请求。
+    accepted-by: 你的传送请求已被 %playername% 接受。
+    timeout-to: 你发送给 %playername% 的传送请求已超时。
+    timeout-from: 来自 %playername% 的传送请求已超时。
+    teleported-to: 你已被传送到 %playername% 的位置。
+    teleported-from: '%playername% 已被传送到你的位置。'
+    moved-return: 传送已取消，因为你移动了。
+    moved-to: 传送到 %playername% 已取消，因为你移动了。
+    moved-from: 传送已取消，因为 %playername% 移动了。
+    wait-to: 请站立不动 %time% 秒，以传送到 %playername%。
+    wait-to-here: 请站立不动 %time% 秒，以便将 %playername% 传送到你身边。
+    wait-from: '%playername% 将在 %time% 秒后被传送。'
+    wait-from-here: 你将在 %time% 秒后被传送到 %playername%。
+    wait-return: 你将在 %time% 秒后被传送回原位置，请站立不动。
+tpa:
+  # Time in seconds you have to accept a teleport request
+  timeout: 60
+  # Time in seconds until the return command times out. Put 0 to make it usable indefinitely.
+  return-timeout: 0
+  # Time in seconds you have to wait before you teleport (after teleport request was accepted)
+  # Any movement will cancel the teleport (minor movements are ignored as long as they stay in the same block), 0 to disable
+  # Note: The requesting player has to wait for teleport in both tpahere and tpa cases.
+  wait: 0
+  # Makes the plugin spam the console with maybe useful information (more verbose)
+  verbose: false
+  cooldowns:
+    # Time in seconds you have to wait before you can send another teleport request
+    tpa: 0
+    # Time in seconds you have to wait before you can send another tpa here request
+    tpaHere: 0
+bStats:
+  # Enable bStats for this plugin
+  enabled: false

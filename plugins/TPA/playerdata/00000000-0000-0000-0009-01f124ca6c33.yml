@@ -1,0 +1,26 @@
+player_name: MiniQouo
+language: zh_CN
+setlang: false
+last_location:
+  world: world
+  x: -214.56914
+  y: 95.9375
+  z: -523.67316
+  pitch: 18.245667
+  yaw: 86.98328
+logout_location:
+  world: world
+  x: -229.94933
+  y: 97.0
+  z: -513.49023
+  pitch: 40.77054
+  yaw: 59.753174
+default_home: default
+homes:
+  default:
+    world: world
+    x: -227.16922
+    y: 96.0
+    z: -522.73004
+    pitch: 29.347458
+    yaw: -101.2825
